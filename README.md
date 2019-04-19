@@ -11,7 +11,7 @@ A aplicação também tem o objetivo de mostrar como acessar e consumir dados de
 
 ## Sua Tarefa
 O código está incompleto. A aplicação não acessa o webservice da Nasa pois a chave (API key) não foi buscada no
-servidor. Veja no arquivo *cliente/src/App.jsx*.
+servidor. Veja no arquivo *cliente/src/view/App.jsx*.
 
 ## Instruções
 Depois de baixar/clonar o respositório, entre no diretório **cliente** e digite
