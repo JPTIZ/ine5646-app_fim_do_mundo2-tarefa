@@ -11,7 +11,7 @@ async function acessaNASA (nasaApiKey, dia) {
   const u = `${URL_BASE}?start_date=${dia}&end_date=${dia}&api_key=${nasaApiKey}`
   const resp = await window.fetch(u)
   if (resp.ok === false) {
-    throw new Error('Não foi possível acessar dados da NASA. API Key não definida/inválida?')
+    throw new Error('Não foi possível acessar dados da NASA. API Key não definida/inválida?<br>')
   }
   const respJSON = await resp.json()
   return processaRespostaNASA(respJSON, dia)
